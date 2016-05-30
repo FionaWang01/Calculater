@@ -12,6 +12,7 @@
 		F2031A3A1C8808E700B82718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2031A381C8808E700B82718 /* Main.storyboard */; };
 		F2031A3C1C8808E700B82718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2031A3B1C8808E700B82718 /* Assets.xcassets */; };
 		F2031A3F1C8808E700B82718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2031A3D1C8808E700B82718 /* LaunchScreen.storyboard */; };
+		F246B6E81CFC2B1900843F56 /* CalculatorBrain .swift in Sources */ = {isa = PBXBuildFile; fileRef = F246B6E71CFC2B1900843F56 /* CalculatorBrain .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F2031A3B1C8808E700B82718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2031A3E1C8808E700B82718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2031A401C8808E700B82718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F246B6E71CFC2B1900843F56 /* CalculatorBrain .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalculatorBrain .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				F2031A341C8808E700B82718 /* AppDelegate.swift */,
 				F2031A361C8808E700B82718 /* ViewController.swift */,
+				F246B6E71CFC2B1900843F56 /* CalculatorBrain .swift */,
 				F2031A381C8808E700B82718 /* Main.storyboard */,
 				F2031A3B1C8808E700B82718 /* Assets.xcassets */,
 				F2031A3D1C8808E700B82718 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2031A371C8808E700B82718 /* ViewController.swift in Sources */,
+				F246B6E81CFC2B1900843F56 /* CalculatorBrain .swift in Sources */,
 				F2031A351C8808E700B82718 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +288,7 @@
 				F2031A451C8808E700B82718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
